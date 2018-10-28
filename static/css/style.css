@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "horsal";
+  src: url(../fonts/horsal.ttf) format("truetype");
+}
+
+body{
+  background-color: black;
+  color: #fffFFF;
+}
+
+.score{
+  font-family: horsal,sans-serif;
+  font-size: 300px;
+}
+
+.ketchup{
+  color: rgb(206,28,0);
+}
+
+.mayo{
+  color: rgb(237,210,0);
+}

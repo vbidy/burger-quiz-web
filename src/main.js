@@ -1,12 +1,21 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import VueResource from 'vue-resource';
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+Vue.use(VueResource);
+
+
+export const globalVars = new Vue({
+  data: {
+    apiUrl: 'http://localhost:8080/'
+  }
+});
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
   render: h => h(App)
-})
+});

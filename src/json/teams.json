@@ -1,0 +1,10 @@
+{
+  "ketchup": {
+    "name": "Ketchup",
+    "img": "ketchup.jpg"
+  },
+  "mayo": {
+    "name": "Mayo",
+    "img": "mayo.jpg"
+  }
+}
